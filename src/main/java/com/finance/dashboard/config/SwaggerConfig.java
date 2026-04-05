@@ -21,7 +21,7 @@ public class SwaggerConfig {
     public OpenAPI openAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Hospital System API")
+                        .title("Finance Dashboard API")
                         .version("1.0")
                         .description("Hospital Management System"))
                 .addSecurityItem(new SecurityRequirement().addList("bearerAuth"));
